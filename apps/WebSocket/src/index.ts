@@ -33,8 +33,6 @@ function checkUser (token: string): string | null {
 
 }
 
-
-
 wss.on('connection', function connection(ws , request) {
 
     const url = request.url;
